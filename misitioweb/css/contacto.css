@@ -1,0 +1,89 @@
+html{
+    height: 100%;
+    }
+    body{
+        margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: aqua;
+      background-image: url(https://p4.wallpaperbetter.com/wallpaper/672/215/822/super-mario-mario-bros-super-mario-bros-video-games-wallpaper-preview.jpg);
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    nav{
+        position: relative;
+      }
+      
+      ul{
+          display: flex;
+          flex-direction: row;
+          gap:50px;
+          justify-content: end;
+          list-style: none;
+          font-weight: bolder;
+          width: 90%;
+          margin-top: 50px;
+          flex: wrap;
+        }
+      
+      li{
+      border: 2px solid red;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: rgb(255, 0, 0);
+      cursor: pointer;
+      
+      }
+      
+      li:hover{
+        background-color: white;
+        color: red;
+        transform: scale(1.3);
+      }
+      
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      
+      a:hover{
+        color: red;
+      }
+      
+      img{
+        position: absolute;
+        width: 300px;
+        top: -40px;
+        left: 50px;
+      }
+      .carrusel .tarjeta{
+
+        padding:  40px;
+        border-radius: 30px;
+        background-color: white;
+        margin: 30px;
+        width: 500px;
+        box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+        position: relative;
+        cursor: pointer;
+        top: 27px;
+        margin-left: 40px;
+      }
+      .tarjeta #logocarta{
+        position: absolute;
+        width: 20px;
+        top: 267px;
+        left: 187px;
+
+      }
+      .tarjeta #logoUbicacion{
+        position: absolute;
+        width: 20px;
+        top: 302px;
+        left: 214px;
+      }
+      .carrusel #tarjeta1:hover{
+        transform: scale(1.1)
+      }
